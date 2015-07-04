@@ -1,19 +1,23 @@
 {
-  "name": "mk",
+  "name": "remote",
   "version": "0.0.1",
-  "description": "meikidd koa web server",
+  "description": "nodejs web server based on koa",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meikidd/mk.git"
+    "url": "https://github.com/meikidd/remote.git"
   },
   "keywords": [
-    "koa"
+    "koa",
+    "web server"
   ],
   "author": "meikidd@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meikidd/mk/issues"
+    "url": "https://github.com/meikidd/remote/issues"
   },
-  "homepage": "https://github.com/meikidd/mk"
+  "homepage": "https://github.com/meikidd/remote",
+  "dependencies": {
+    "koa-router": "~5.1.2"
+  }
 }
