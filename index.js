@@ -37,6 +37,8 @@ class Remote {
     // router
     router(app)
 
+    // todo log 日志输出地址、格式、切割方式
+
     return app
   }
 
