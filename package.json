@@ -1,6 +1,6 @@
 {
   "name": "remote-web",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a smart nodejs web server based on koa",
   "main": "build/index.js",
   "repository": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "koa": "~0.21.0",
     "koa-router": "~5.1.2",
+    "koa-session": "~3.3.1",
     "koa-static-cache": "~3.1.1",
     "koa-views": "~3.0.0"
   },
@@ -27,6 +28,6 @@
     "babel": "~5.8.12"
   },
   "scripts": {
-    "build": "babel ./index.js --out-file ./build/index.js"
+    "build": "babel lib --out-dir build"
   }
 }

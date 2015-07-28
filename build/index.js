@@ -8,9 +8,9 @@ var resolve = require('path').resolve;
 var koa = require('koa');
 var session = require('koa-session');
 
-var view = require('./lib/view');
-var asset = require('./lib/asset');
-var router = require('./lib/router');
+var view = require('./view');
+var asset = require('./asset');
+var router = require('./router');
 
 var Remote = function Remote(middleware) {
   _classCallCheck(this, Remote);
