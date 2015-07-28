@@ -1,10 +1,9 @@
 'use strict';
 
-var serverRoot = process.cwd();
 var views = require('koa-views');
 var resolve = require('path').resolve;
 
-module.exports = function (app, _ref) {
+module.exports = function (app, _ref, serverRoot) {
   var _ref$root = _ref.root;
   var root = _ref$root === undefined ? 'biz/templates' : _ref$root;
   var _ref$engine = _ref.engine;

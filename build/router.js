@@ -1,10 +1,9 @@
 'use strict';
 
-var serverRoot = process.cwd();
 var router = require('koa-router')();
 var resolve = require('path').resolve;
 
-module.exports = function (app) {
+module.exports = function (app, serverRoot) {
 
   var config = require(resolve(serverRoot, './router/index'));
   for (var path in config) {

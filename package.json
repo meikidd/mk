@@ -1,6 +1,6 @@
 {
   "name": "remote-web",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a smart nodejs web server based on koa",
   "main": "build/index.js",
   "repository": {
