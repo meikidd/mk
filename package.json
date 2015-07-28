@@ -1,8 +1,8 @@
 {
-  "name": "remote",
-  "version": "0.0.1",
+  "name": "remote-web",
+  "version": "0.0.2",
   "description": "a smart nodejs web server based on koa",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/meikidd/remote.git"
@@ -18,8 +18,15 @@
   },
   "homepage": "https://github.com/meikidd/remote",
   "dependencies": {
+    "koa": "~0.21.0",
     "koa-router": "~5.1.2",
     "koa-static-cache": "~3.1.1",
     "koa-views": "~3.0.0"
+  },
+  "devDependencies": {
+    "babel": "~5.8.12"
+  },
+  "scripts": {
+    "build": "babel ./index.js --out-file ./build/index.js"
   }
 }
